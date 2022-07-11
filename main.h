@@ -29,8 +29,8 @@ int print_p(va_list p);
 
 typedef struct code_format
 {
-  char *sc;
-  int (*f)(va_list);
+	char *sc;
+	int (*f)(va_list);
 } code_f;
 
 #endif
